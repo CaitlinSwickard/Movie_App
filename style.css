@@ -16,12 +16,18 @@ body {
 }
 
 /* header styling */
+header .title {
+  color: #fff;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
 header {
   padding: 1rem;
-  display: flex;
-  justify-content: flex-end;
   background-color: var(--secondary-color);
 }
+
 
 .search {
   background-color: transparent;
@@ -34,7 +40,7 @@ header {
 }
 
 .search::placeholder {
-  color: #7378c5;
+  color: #bbbff0;
 }
 
 .search:focus {
